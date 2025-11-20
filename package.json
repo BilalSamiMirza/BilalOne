@@ -1,5 +1,5 @@
 {
-  "name": "BilalOne",
+  "name": "bilalone",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,16 +10,23 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native/new-app-screen": "0.82.0",
     "@react-navigation/bottom-tabs": "^7.4.9",
     "@react-navigation/elements": "^2.6.5",
     "@react-navigation/native": "^7.1.18",
     "@react-navigation/native-stack": "^7.3.28",
+    "@reduxjs/toolkit": "^2.9.1",
+    "axios": "^1.13.1",
     "react": "19.1.1",
     "react-native": "0.82.0",
+    "react-native-image-picker": "^8.2.1",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-paper": "^5.14.5",
     "react-native-safe-area-context": "^5.6.1",
     "react-native-screens": "^4.17.1",
-    "react-native-vector-icons": "^10.3.0"
+    "react-native-vector-icons": "^10.3.0",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -43,5 +50,18 @@
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "description": "This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilalSamiMirza/BilalOne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BilalSamiMirza/BilalOne/issues"
+  },
+  "homepage": "https://github.com/BilalSamiMirza/BilalOne#readme"
 }
